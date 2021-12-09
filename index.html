@@ -2,36 +2,50 @@
 <html lang="en">
 
 <head>
-    <title>Cube</title>
+    <title>Cube-Static Project</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script style="width:100%" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script style="width:100%" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
  
         <!--Full page Container start-->
-        <div id="home_section">
-            <div class="container-fluid shadow-lg p-3 mb-5 rounded" id="fade_container">
-                <img src="https://cube.webuildthemes.com/assets/images/blocks/block-1.jpg" id="home_section_image_1">
-                <img src="https://cube.webuildthemes.com/assets/images/blocks/block-2.jpg" id="home_section_image_2">
-                <img src="https://cube.webuildthemes.com/assets/images/blocks/block-3.jpg" id="home_section_image_3">
-                <img src="https://cube.webuildthemes.com/assets/images/blocks/block-4.jpg" id="home_section_image_4">
-                <img src="https://cube.webuildthemes.com/assets/images/blocks/block-5.jpg" id="home_section_image_5">
-            </div>
+       
+    <div class="container-fluid shadow-lg fade-container">
+            <div class="d-flex flex-row mb-3">
+                <div class="col ">
+                 <div class=" d-flex justify-content-start"><img width="600px" class="position-absolute" src="https://cube.webuildthemes.com/assets/images/blocks/block-1.jpg"></div>
+                </div>
+                <div class="col">
+                <div class="d-flex justify-content-end"><img width="600px" class="position-absolute" src="https://cube.webuildthemes.com/assets/images/blocks/block-3.jpg"></div>
+                </div>
+                       <!--  
+                <div class="d-flex flex-row">
+                <div class="col ">
+                <div class=" d-flex d-flex justify-content-start"><img width="200px" class="position-absolute" src="https://cube.webuildthemes.com/assets/images/blocks/block-4.jpg"></div>
+                </div>
+                <div class="col">
+                <div class="d-flex d-flex justify-content-between"><img width="200px" class="position-absolute" src="https://cube.webuildthemes.com/assets/images/blocks/block-5.jpg"></div>
+                </div>
+                <div class="col">
+                <div class="d-flex d-flex justify-content-end"><img width="200px" class="position-absolute" src="https://cube.webuildthemes.com/assets/images/blocks/block-2.jpg"></div>
+                </div>
+                          -->
         </div>
+  
+    </div>
+       
+       </div>
         <div>
             <!--Navigation Start-->
             <div class="py-lg-3 py-sm-5">
-                <nav class="navbar navbar-expand-lg">
+                <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed">
                     <div class="container">
                         <a class="navbar-brand" href="javascript:void(0)"><img src="https://cube.webuildthemes.com/assets/images/logo/logo-light.svg" alt="logo"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                             <span class="fa fa-bars"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="mynavbar">
@@ -53,7 +67,7 @@
                                 </li>
                             </ul>
                             <form class="d-flex">
-                                <a id="buy_cube" type="button">Buy Cube</a>
+                                <a id="buy_cube" type="submit">Buy Cube</a>
                             </form>
                         </div>
                     </div>
@@ -270,55 +284,14 @@
             <!--Website container end-->
         </div>
         <!--Features Section Start-->
-       <div class="container-fluid" id="features_section">
-        <div class="container pt-4 pb-4">
-            <div class="row">
-                <div class="col-lg-10">
-                    <span id="features_title">Cube is packed with<br>
-          features you' ll love.</span>
-                </div>
-            </div>
-        </div>
-            <div class="container d-flex">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                     <div class="d-flex align-items-center border rounded-pill pe-4">
-                    <img src="https://cube.webuildthemes.com/assets/images/logo/bootstrap.svg" alt=""> <span>Built on Bootstrap 5</span>
-                </div>
-                </div>
-                <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4">
-                    <img src="	https://cube.webuildthemes.com/assets/images/logo/js.svg" alt=""> Vanilla Javascript</div></div>
-                <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4">
-                    <img src="	https://cube.webuildthemes.com/assets/images/logo/webpack.svg" alt="">Webpack Setup
-                </div></div>
-                <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4">
-                            <img src="	https://cube.webuildthemes.com/assets/images/logo/w3c.svg" alt=""> W3C Valid HTML Code</div></div>
-                        </div>
-            </div>
-  <br>
-             <div class="container d-flex  pb-4">
-                 <div class="row">
-                <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4">
-                    <img src="https://cube.webuildthemes.com/assets/images/logo/sass.svg" alt="">Easy Customisable with SASS
-
-                </div></div>
-                <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4">
-                    <img src="https://cube.webuildthemes.com/assets/images/logo/seo.svg" alt=""> SEO Friendly Code</div></div>
-                <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4">
-                    <img src="https://cube.webuildthemes.com/assets/images/logo/documentation.svg" alt=""> Detailed Documentation</div></div>
-                <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4">
-                            <img src="	https://cube.webuildthemes.com/assets/images/logo/responsive.svg
-                            " alt="">Fully Responsive</div></div>
-                        </div>
-            </div>
-       </div>
+      
         <!--Features Section End-->
 
         <!--Purchase landing page Section Start-->
         
             <div class="container-fluid pt-4 pb-4 purchase_section">
-                <div class="container">
-                <div class="row">
+                <div class="container pt-4">
+                 <div class="row">
                     <div class="col-6">
                         <h1 id="purchase_title" class=""><span style="color: #4726e1 ;">Buy now</span> and get one <br> new landing page
                             <br>every month.</h1>
@@ -330,9 +303,54 @@
                     </div>
                     </div>
                 </div>
+                 </div>
+                 <div class="container-fluid" id="features_section">
+                     <hr>
+                    <div class="container pt-4 pb-4">
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <span id="features_title">Cube is packed with<br>
+                      features you' ll love.</span>
+                            </div>
+                        </div>
+                    </div>
+                      
+                   </div>
+                   <div class="container-fluid">
+                 <div class="container d-flex">
+                    <div class="row ">
+                        <div class="col-lg-3 col-sm-6">
+                         <div class="d-flex align-items-center border rounded-pill pe-4 mb-4">
+                        <img src="https://cube.webuildthemes.com/assets/images/logo/bootstrap.svg" alt=""> <span class="pr-4">Built on Bootstrap 5</span>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4 mb-4">
+                        <img src="	https://cube.webuildthemes.com/assets/images/logo/js.svg" alt=""> Vanilla Javascript</div></div>
+                    <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4 mb-4">
+                        <img src="	https://cube.webuildthemes.com/assets/images/logo/webpack.svg" alt="">Webpack Setup
+                    </div></div>
+                    <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4 mb-4">
+                                <img src="	https://cube.webuildthemes.com/assets/images/logo/w3c.svg" alt=""> W3C Valid HTML Code</div></div>
+                            </div>
+                </div>
+            
+                 <div class="container d-flex  pb-4">
+                     <div class="row">
+                    <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4 mb-4">
+                        <img src="https://cube.webuildthemes.com/assets/images/logo/sass.svg" alt="">Easy Customisable with SASS
+    
+                    </div></div>
+                    <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4 mb-4">
+                        <img src="https://cube.webuildthemes.com/assets/images/logo/seo.svg" alt=""> SEO Friendly Code</div></div>
+                    <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4 mb-4">
+                        <img src="https://cube.webuildthemes.com/assets/images/logo/documentation.svg" alt=""> Detailed Documentation</div></div>
+                    <div class="col-lg-3 col-sm-6"><div class="d-flex align-items-center border rounded-pill pe-4 mb-4">
+                                <img src="	https://cube.webuildthemes.com/assets/images/logo/responsive.svg
+                                " alt="">Fully Responsive</div></div>
+                            </div>
+                </div>
             </div>
-            </div>
-
+        </div>
         <!--Purchase landing page Section End-->
         <!--Footer Start -->
 
@@ -383,6 +401,9 @@
         <!--Footer Contact End-->
 
         <!--Full page Container End-->
+        <script style="width:100%" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script style="width:100%" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script>
         var acc = document.getElementsByClassName("accordion");
